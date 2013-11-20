@@ -34,8 +34,8 @@ function add_wp_ngg_search() {
 /* 	
  * The top one is only used in case there needs te be a seperate menu item.
 */
-//	add_menu_page('Search Galleries', 'Search Galleries', 10, __FILE__, 'wp_ngg_search', plugins_url('/admin/images/nextgen_16_color.png'), 540);
-	add_submenu_page('nextgen-gallery', __('Search Galleries'), __('Search Galleries'),  7, __FILE__, 'wp_ngg_search');
+	add_menu_page('Search Galleries', 'Search Galleries', 10, __FILE__, 'wp_ngg_search', plugins_url('/admin/images/nextgen_16_color.png'), 540);
+//	add_submenu_page('nextgen-gallery', __('Search Galleries'), __('Search Galleries'),  7, __FILE__, 'wp_ngg_search');
 }
 
 add_action('admin_menu', 'add_wp_ngg_search');
