@@ -31,7 +31,8 @@ If you have any questions, suggestions, ideas or feedback, please email me at ko
 = Key features: =
 1. Find galleries easily!
 2. Search for name or description.
-3. Outputs a link to the gallery.
+3. Search with multiple keywords at once.
+4. Outputs a link to the gallery.
 
 == Installation ==
 
@@ -41,7 +42,7 @@ If you have any questions, suggestions, ideas or feedback, please email me at ko
 2. Log into your WordPress admin
 3. Click **Plugins --> Add New**
 4. Click **Upload** (in the header)
-5. Search your computer for **nextgen-gallery-search-galleries-XX.zip**
+5. Search your computer for **nextgen-gallery-search-galleries.zip**
 6. Click **Install Now**
 7. Click **Activate Plugin**
 8. Goto **Gallery --> Search Galleries** to use the plugin.
@@ -50,7 +51,8 @@ If you have any questions, suggestions, ideas or feedback, please email me at ko
 
 = I installed the plugin but I can’t find the menu item =
 
-The plugin creates a new menu item under under **Gallery** called **Search Galleries**.
+The plugin creates a new menu item called **Search Galleries** 
+And there is also a menu-item called **Search Galleries** under **Gallery**.
 
 = There is no menu called Gallery =
 
