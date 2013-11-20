@@ -33,9 +33,9 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  **/
 function add_wp_ngg_search() {
 /* 	
- * We HAVE to create a new menu in order to get the submenu working, but we fix that by making the initial menu invisible with CSS
+ * We HAVE to create a new menu in order to get the submenu working
 */
-	add_menu_page('Search a Gallery in NextGEN Galleries', 'Search Galleries', 'manage_options', 'ngg-search', wp_ngg_search, 15 );
+	add_menu_page('Search a Gallery in NextGEN Galleries', 'Search Galleries', 'manage_options', 'ngg-search', wp_ngg_search, '/wp-content/plugins/nextgen-gallery-search-galleries/icon.png', 999 );
 	add_submenu_page('nextgen-gallery', 'Search Galleries','Search Galleries', 'manage_options', 'ngg-search', wp_ngg_search);
 }
 
@@ -54,7 +54,6 @@ function wp_ngg_search() {
 #search { float: left; margin: 0 0 23px 0; }
 #help strong {font-size: 15px; }
 #help { margin: -8px 0 0 21px; float: left; background: #FFFBCC; border: 1px solid #E6DB55; width: 398px; padding: 10px; border-radius: 5px; }
-#toplevel_page_ngg-search { display: none; }
 </style>
 
 <!-- Start the table where the results will be shown -->

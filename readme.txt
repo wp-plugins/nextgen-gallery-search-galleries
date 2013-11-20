@@ -31,8 +31,7 @@ If you have any questions, suggestions, ideas or feedback, please email me at ko
 = Key features: =
 1. Find galleries easily!
 2. Search for name or description.
-3. Search with multiple keywords at once.
-4. Outputs a link to the gallery.
+3. Outputs a link to the gallery.
 
 == Installation ==
 
