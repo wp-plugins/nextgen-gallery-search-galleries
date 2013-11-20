@@ -1,6 +1,6 @@
 === NextGEN Gallery Search ===
 Contributors: Koen Schuit
-Donate link: http://example.com/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HJM3KPBFBDEAC
 Author URI: http://bythewww.com
 Plugin URI: http://bythewww.com/plugins/ngg-search-galleries
 Tags: nextgen gallery, nextgen, nextgen gallery search, nextgen gallery plugins, nextgen gallery addons, nextgen gallery description, search, search plugin, description search, wordpress gallery search
