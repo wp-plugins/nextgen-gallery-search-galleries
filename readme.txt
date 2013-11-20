@@ -2,7 +2,7 @@
 Contributors: Koen Schuit
 Donate link: http://example.com/
 Author URI: http://bythewww.com
-Plugin URI: http://bythewww.com/plugins/ngg-search-galleries
+Plugin URI: http://http://wordpress.org/plugins/nextgen-gallery-search-galleries
 Tags: nextgen gallery, nextgen, nextgen gallery search, nextgen gallery plugins, nextgen gallery addons, nextgen gallery description, search, search plugin, description search, wordpress gallery search
 Requires at least: 3.1.2
 Tested up to: 3.7.1
