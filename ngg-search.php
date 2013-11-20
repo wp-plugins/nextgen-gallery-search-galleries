@@ -3,11 +3,11 @@ if(preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF'])) { die('You 
 
 /*
 Plugin Name: NextGEN Gallery Search
-Plugin URI: http://bythewww.com/plugins/ngg-search
+Plugin URI: http://wordpress.org/plugins/nextgen-gallery-search-galleries
 Description: Adds a gallery search option to the NextGEN galleries menu. <strong>Please notice: </strong>you can only search galleries with this plugin. You can search for images by using the search option in the top right on the 'Manage Galleries' page.
 Author: By the WWW...
 Author URI: http://bythewww.com/
-Version: 1.0
+Version: 1.1
 
 Copyright (c) 2013 By the WWW...
 
@@ -30,15 +30,17 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 /**
  * Add submenu to the NextGEN gallery menu.
  **/
+ 
 function add_wp_ngg_search() {
 /* 	
  * The top one is only used in case there needs te be a seperate menu item.
 */
-	add_menu_page('Search Galleries', 'Search Galleries', 10, __FILE__, 'wp_ngg_search', plugins_url('/admin/images/nextgen_16_color.png'), 540);
+	add_menu_page('Search Galleries', 'Search Galleries', 10, __FILE__, 'wp_ngg_search', plugins_url('nextgen-gallery-search-galleries/icon.png'), 540);
 //	add_submenu_page('nextgen-gallery', __('Search Galleries'), __('Search Galleries'),  7, __FILE__, 'wp_ngg_search');
 }
 
 add_action('admin_menu', 'add_wp_ngg_search');
+
 
 /**
  * Start the function
