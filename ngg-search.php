@@ -7,7 +7,7 @@ Plugin URI: http://bythewww.com/plugins/ngg-search
 Description: Adds a gallery search option to the NextGEN galleries menu. <strong>Please notice: </strong>you can only search galleries with this plugin. You can search for images by using the search option in the top right on the 'Manage Galleries' page.
 Author: By the WWW...
 Author URI: http://bythewww.com/
-Version: 1.1
+Version: 1.0
 
 Copyright (c) 2013 By the WWW...
 
@@ -91,30 +91,11 @@ function wp_ngg_search() { ?>
     <input name="description" id="description" style="margin: 0 5px 0 0;" type="checkbox" value="description" <?php if(isset($_POST['description'])) echo "checked='checked'"; ?>>Also search in description</br>
 
  	<!-- Search input field -->
-    <input name="find" id="find" maxlength="255" title="" style="margin-right: 3px; padding: 4px 4px 5px; width: 300px;" value="<?php echo ($_POST['find']);?>" type="text">
+    <input name="find" id="find" maxlength="255" title="" style="margin-right: 3px; padding: 4px 4px 5px;" value="<?php echo ($_POST['find']);?>" type="text">
   
-  	<!--Break multiple inputs into a single variables -->
+  	<!-- Make sure to parse the input to a variable -->
     <?php if (isset($_POST['submit'])) {
-    	$string = $_POST['find'];
-		/* We don't want to use explode here, just in case there are extra spaces in the search query */
-    	$parts = preg_split('/\s+/', $string);
-    	/* Find the last word in the query */
-		$last_word = end($parts);
-		
-		/*
-		 *  Here we create all the search queries 
-		 *	Each word in the search input field will get it's own LIKE query for mySQL, so it doesn't matter how many words are used
-		 */
-		foreach($parts as $part) {
-			/* Check to see if it's the last word in the query */
-			if($part == $last_word) {
-				$title .= 'title LIKE \'%'.$part.'%\'';
-				$desc .= 'galdesc LIKE \'%'.$part.'%\'';
-			} else {
-				$title .= 'title LIKE \'%'.$part.'%\' OR ';
-				$desc .= 'galdesc LIKE \'%'.$part.'%\' OR ';
-			}
-		}
+    	$input = $_POST['find'];
     }
     ?>
 	<input class="button" name="submit" type="submit" value="Search" style="margin-top: 5px;">
@@ -132,14 +113,12 @@ $gallery = $wpdb->prefix . 'ngg_gallery';
 /*
  *  Check if there is input and if the description checkbox is on, and show results
  */
-if ($string != '') {
+if ($input != '') {
 	if(isset($_POST['description'])) {
-			/* if the 'add description' checkbox is on we use this line */
-			$result = $wpdb->get_results( "SELECT * FROM ". $gallery ." WHERE (". $title . " OR " . $desc . ") "); 
+		$result = $wpdb->get_results( "SELECT * FROM ". $gallery ." WHERE (name LIKE '%$input%' OR galdesc LIKE '%$input%') "); 
 		} else {
-			/* if the 'add description' checkbox is off we use this line */
-			$result  = $wpdb->get_results( "SELECT * FROM ". $gallery ." WHERE (". $title . ") "); 
-		}
+		$result  = $wpdb->get_results( "SELECT * FROM ". $gallery ." WHERE name LIKE '%$input%' "); 
+	}
 
 if (!empty($result)) {
 	foreach($result as $row) {
