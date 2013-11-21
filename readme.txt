@@ -11,7 +11,7 @@ License: GPLv2
 
 Search a gallery within the NextGEN galleries including description search.
 
-== Description ==
+== Description == 
 
 = NextGEN Gallery Search =
 
