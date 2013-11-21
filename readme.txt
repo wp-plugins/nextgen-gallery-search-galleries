@@ -1,5 +1,6 @@
 === NextGEN Gallery Search ===
-Contributors: Koen Schuit 
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HJM3KPBFBDEAC
+Contributors: By the WWW…
 Author URI: http://bythewww.com
 Plugin URI: http://wordpress.org/plugins/nextgen-gallery-search-galleries/
 Tags: nextgen gallery, nextgen, nextgen gallery search, nextgen gallery plugins, nextgen gallery addons, nextgen gallery description, search, search plugin, description search, wordpress gallery search
@@ -42,7 +43,7 @@ If you have any questions, suggestions, ideas or feedback, please email me at ko
 2. Log into your WordPress admin
 3. Click **Plugins --> Add New**
 4. Click **Upload** (in the header)
-5. Search your computer for **nextgen-gallery-search-galleries.zip**
+5. Search your computer for **nextgen-gallery-search-galleries-XX.zip**
 6. Click **Install Now**
 7. Click **Activate Plugin**
 8. Goto **Gallery --> Search Galleries** to use the plugin.
@@ -51,8 +52,7 @@ If you have any questions, suggestions, ideas or feedback, please email me at ko
 
 = I installed the plugin but I can’t find the menu item =
 
-The plugin creates a new menu item called **Search Galleries** 
-And there is also a menu-item called **Search Galleries** under **Gallery**.
+The plugin creates a new menu item under under **Gallery** called **Search Galleries**.
 
 = There is no menu called Gallery =
 
