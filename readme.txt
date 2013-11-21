@@ -15,6 +15,7 @@ Search a gallery within the NextGEN galleries including description search.
 
 = NextGEN Gallery Search =
 
+
 NextGEN Gallery Search adds a search option to the existing NextGEN Gallery menu.
 
 With this search option you can quickly and easily search through your galleries so you don’t have to go through a whole listst of galleries.
@@ -38,6 +39,7 @@ If you have any questions, suggestions, ideas or feedback, please email me at ko
 == Installation ==
 
 = Install NextGEN Gallery Search: =
+
 
 Automatically:
 
