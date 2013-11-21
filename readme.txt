@@ -1,5 +1,5 @@
 === NextGEN Gallery Search ===
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HJM3KPBFBDEAC
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9E8VD49FQ76XY
 Contributors: By the WWW…
 Author URI: http://bythewww.com
 Plugin URI: http://wordpress.org/plugins/nextgen-gallery-search-galleries/
