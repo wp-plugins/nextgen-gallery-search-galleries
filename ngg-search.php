@@ -7,7 +7,7 @@ Plugin URI: http://http://wordpress.org/plugins/nextgen-gallery-search-galleries
 Description: Adds a gallery search option to the NextGEN galleries menu. <strong>Please notice: </strong>you can only search galleries with this plugin. You can search for images by using the search option in the top right on the 'Manage Galleries' page.
 Author: By the WWW...
 Author URI: http://bythewww.com/
-Version: 2.0
+Version: 2.1
 
 Copyright (c) 2013 By the WWW...
 
@@ -33,9 +33,9 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  **/
 function add_wp_ngg_search() {
 /* 	
- * We HAVE to create a new menu in order to get the submenu working
+ * We HAVE to create a new menu in order to get the submenu working, but we fix that by making the initial menu invisible with CSS
 */
-	add_menu_page('Search a Gallery in NextGEN Galleries', 'Search Galleries', 'manage_options', 'ngg-search', wp_ngg_search, '/wp-content/plugins/nextgen-gallery-search-galleries/icon.png', 999 );
+	add_menu_page('Search a Gallery in NextGEN Galleries', 'Search Galleries', 'manage_options', 'ngg-search', wp_ngg_search, 15 );
 	add_submenu_page('nextgen-gallery', 'Search Galleries','Search Galleries', 'manage_options', 'ngg-search', wp_ngg_search);
 }
 
@@ -54,6 +54,7 @@ function wp_ngg_search() {
 #search { float: left; margin: 0 0 23px 0; }
 #help strong {font-size: 15px; }
 #help { margin: -8px 0 0 21px; float: left; background: #FFFBCC; border: 1px solid #E6DB55; width: 398px; padding: 10px; border-radius: 5px; }
+#toplevel_page_ngg-search { display: none; }
 </style>
 
 <!-- Start the table where the results will be shown -->

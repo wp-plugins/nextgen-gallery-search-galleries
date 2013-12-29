@@ -1,29 +1,27 @@
 === NextGEN Gallery Search ===
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9E8VD49FQ76XY
-Contributors: By the WWW…
+Contributors: Koen Schuit 
 Author URI: http://bythewww.com
 Plugin URI: http://wordpress.org/plugins/nextgen-gallery-search-galleries/
 Tags: nextgen gallery, nextgen, nextgen gallery search, nextgen gallery plugins, nextgen gallery addons, nextgen gallery description, search, search plugin, description search, wordpress gallery search
 Requires at least: 3.1.2
-Tested up to: 3.7.1
-Stable tag: 2.0
+Tested up to: 3.8
+Stable tag: 2.1
 License: GPLv2
 
 Search a gallery within the NextGEN galleries including description search.
 
-== Description == 
+== Description ==
 
-= NextGEN Gallery Search =
+= NextGEN Gallery - Search Galleries =
 
-
-NextGEN Gallery Search adds a search option to the existing NextGEN Gallery menu.
+NextGEN Gallery - Search Galleries adds a search option to the existing NextGEN Gallery menu.
 
 With this search option you can quickly and easily search through your galleries so you don’t have to go through a whole listst of galleries.
 The output of the search will show in a table similar to the manage galleries page and will provide a link to that gallery.
 
-NextGEN Gallery Search even adds an option to search in the description which can be helpfull if you don’t remember the name.
+NextGEN Gallery - Search Galleries even adds an option to search in the description which can be helpfull if you don’t remember the name.
 
-And NextGEN Gallery Search also has the ability to search for part of the name or description. 
+And NextGEN Gallery - Search Galleries also has the ability to search for part of the name or description. 
 For instance: **int** will find **int**ernet, but also w**int**er, ballpo**int**, sa**int**s etc.
 
 Please note: this plugin requires NextGEN Gallery installed.
@@ -33,23 +31,11 @@ If you have any questions, suggestions, ideas or feedback, please email me at ko
 = Key features: =
 1. Find galleries easily!
 2. Search for name or description.
-3. Search with multiple keywords at once.
-4. Outputs a link to the gallery.
+3. Outputs a link to the gallery.
 
 == Installation ==
 
-= Install NextGEN Gallery Search: =
-
-
-Automatically:
-
-1. Go to **Plugins** in your wordpress admin
-2. Click **Add New**
-3. Search for **Gallery Search**
-4. Find **NextGEN Gallery Search** and click **Install Now**
-5. Enjoy the plugin.
-
-Manually:
+= Install NextGEN Gallery Optimizer: =
 
 1. Download NextGEN Gallery - Search Galleries to your computer
 2. Log into your WordPress admin
@@ -73,7 +59,7 @@ Please got to the plugins page and check if you have NextGEN Gallery installed a
 
 == Screenshots ==
 
-1. NextGEN Gallery Search page.
+1. NextGEN Gallery - Search Galleries page.
 
 == Changelog ==
 
@@ -83,6 +69,9 @@ Please got to the plugins page and check if you have NextGEN Gallery installed a
 = V2.0 - 20/11/2013 =
 * Fixed some errors.
 * Added the option to search with multiple keywords.
+
+= V2.1 - 29/12/2013 =
+* Tested with WP 3.8
 
 == Upgrade Notice ==
 
