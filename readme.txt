@@ -70,7 +70,7 @@ Please got to the plugins page and check if you have NextGEN Gallery installed a
 * Fixed some errors.
 * Added the option to search with multiple keywords.
 
-= V2.1 - 29/12/2013 =
+= V2.0 - 29/12/2013 =
 * Tested with WP 3.8
 
 == Upgrade Notice ==
