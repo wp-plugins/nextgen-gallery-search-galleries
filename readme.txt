@@ -5,7 +5,7 @@ Plugin URI: http://wordpress.org/plugins/nextgen-gallery-search-galleries/
 Tags: nextgen gallery, nextgen, nextgen gallery search, nextgen gallery plugins, nextgen gallery addons, nextgen gallery description, search, search plugin, description search, wordpress gallery search
 Requires at least: 3.1.2
 Tested up to: 3.8
-Stable tag: 2.1
+Stable tag: 2.0
 License: GPLv2
 
 Search a gallery within the NextGEN galleries including description search.
