@@ -84,10 +84,10 @@ If you don’t see a menu called **Gallery** you probably don’t have NextGEN G
 = V2.1 - 22/01/2014 =
 * Updated roles. The following roles can now search galleries:
 
-- Super Admin
-- Administrator
-- Editor
-- Author
+Super Admin
+Administrator
+Editor
+Author
 
 
 == Upgrade Notice ==
