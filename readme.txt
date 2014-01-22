@@ -5,7 +5,7 @@ Plugin URI: http://wordpress.org/plugins/nextgen-gallery-search-galleries/
 Tags: nextgen gallery, nextgen, nextgen gallery search, nextgen gallery plugins, nextgen gallery addons, nextgen gallery description, search, search plugin, description search, wordpress gallery search
 Requires at least: 3.1.2
 Tested up to: 3.8
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPLv2
 
 Search a gallery within the NextGEN galleries including description search.
@@ -35,7 +35,9 @@ If you have any questions, suggestions, ideas or feedback, please email me at ko
 
 == Installation ==
 
-= Install NextGEN Gallery Optimizer: =
+= Install NextGEN Gallery Search =
+
+= Option 1: =
 
 1. Download NextGEN Gallery - Search Galleries to your computer
 2. Log into your WordPress admin
@@ -43,6 +45,16 @@ If you have any questions, suggestions, ideas or feedback, please email me at ko
 4. Click **Upload** (in the header)
 5. Search your computer for **nextgen-gallery-search-galleries-XX.zip**
 6. Click **Install Now**
+7. Click **Activate Plugin**
+8. Goto **Gallery --> Search Galleries** to use the plugin.
+
+= Option 2: =
+
+1. Log into your WordPress admin
+2. Go to plugins in the menu
+3. Click on the **Add New** button at the top 
+4. Type **nextgen gallery search** in the search box
+5. Go to the forst plugin and click **Install Now** 
 7. Click **Activate Plugin**
 8. Goto **Gallery --> Search Galleries** to use the plugin.
 
@@ -54,8 +66,7 @@ The plugin creates a new menu item under under **Gallery** called **Search Galle
 
 = There is no menu called Gallery =
 
-If you don’t see a menu called **Gallery** you probably don’t have NextGEN Gallery installed.
-Please got to the plugins page and check if you have NextGEN Gallery installed and activated.
+If you don’t see a menu called **Gallery** you probably don’t have NextGEN Gallery installed. Please got to the plugins page and check if you have NextGEN Gallery installed and activated.
 
 == Screenshots ==
 
@@ -70,8 +81,14 @@ Please got to the plugins page and check if you have NextGEN Gallery installed a
 * Fixed some errors.
 * Added the option to search with multiple keywords.
 
-= V2.0 - 29/12/2013 =
-* Tested with WP 3.8
+= V2.1 - 22/01/2014 =
+* Updated roles. The following roles can now search galleries:
+
+- Super Admin
+- Administrator
+- Editor
+- Author
+
 
 == Upgrade Notice ==
 
