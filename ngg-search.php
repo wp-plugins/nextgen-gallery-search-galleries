@@ -3,7 +3,7 @@ if(preg_match('#' . basename(__FILE__) . '#', $_SERVER['PHP_SELF'])) { die('You 
 
 /*
 Plugin Name: NextGEN Gallery Search
-Plugin URI: http://http://wordpress.org/plugins/nextgen-gallery-search-galleries/
+Plugin URI: http://wordpress.org/plugins/nextgen-gallery-search-galleries/
 Description: Adds a gallery search option to the NextGEN galleries menu. <strong>Please notice: </strong>you can only search galleries with this plugin. You can search for images by using the search option in the top right on the 'Manage Galleries' page.
 Author: By the WWW...
 Author URI: http://bythewww.com/
