@@ -35,8 +35,8 @@ function add_wp_ngg_search() {
 /* 	
  * We HAVE to create a new menu in order to get the submenu working, but we fix that by making the initial menu invisible with CSS
 */
-	add_menu_page('Search a Gallery in NextGEN Galleries', 'Search Galleries', 'upload_files', 'ngg-search', wp_ngg_search, 15 );
-	add_submenu_page('nextgen-gallery', 'Search Galleries','Search Galleries', 'upload_files', 'ngg-search', wp_ngg_search);
+	add_menu_page('Search a Gallery in NextGEN Galleries', __('Search Galleries','ngg-search'), 'upload_files', 'ngg-search', 'wp_ngg_search', plugin_dir_url( __FILE__ ).'icon.png');
+	add_submenu_page('nextgen-gallery', 'Search Galleries', 'Search Galleries', 'upload_files', 'ngg-search', wp_ngg_search);
 }
 
 add_action('admin_menu', 'add_wp_ngg_search');
