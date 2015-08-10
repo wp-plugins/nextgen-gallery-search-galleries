@@ -4,8 +4,8 @@ Author URI: http://bythewww.com
 Plugin URI: http://wordpress.org/plugins/nextgen-gallery-search-galleries/
 Tags: nextgen gallery, nextgen, nextgen gallery search, nextgen gallery plugins, nextgen gallery addons, nextgen gallery description, search, search plugin, description search, wordpress gallery search
 Requires at least: 3.1.2
-Tested up to: 3.8
-Stable tag: 2.11
+Tested up to: 4.2.4
+Stable tag: 2.12
 License: GPLv2
 
 Search a gallery within the NextGEN galleries including description search.
@@ -25,8 +25,6 @@ And NextGEN Gallery - Search Galleries also has the ability to search for part o
 For instance: **int** will find **int**ernet, but also w**int**er, ballpo**int**, sa**int**s etc.
 
 Please note: this plugin requires NextGEN Gallery installed.
-
-If you have any questions, suggestions, ideas or feedback, please email me at koen@bythewww.com
 
 = Key features: =
 1. Find galleries easily!
@@ -92,6 +90,8 @@ If you don’t see a menu called **Gallery** you probably don’t have NextGEN G
 = V2.11 - 23/01/2014 =
 * Fix some errors. Thanks Antoinet for pointing them out ;)
 
+= V2.12 - 10/08/2015 =
+* Minor fixes
 
 == Upgrade Notice ==
 
